@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFome</title>
+    <link rel="stylesheet" href="ifome.css">
+</head>
+
+<body>
+    <main class="container">
+            <section>
+                <img src="https://loja704.com.br/storage/customer/586/logo/gSwY2KPzspxRjdA3H2zYlRAHDBgzW6syWFsQsN9j.png" 
+                alt="Logo do ifome">
+                <h2>Eu como tudo isso</h2>
+            </section>
+
+    <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <form action="#" method="post">
+                <div class="form">
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                <label for="nome"></label>
+                <input type="text" name="nome" id="nome">
+                
+                <label for="endereco"></label>
+                <textarea name="endereco" id="endereco" cols="22" rows="4"></textarea>
+
+            </div>     
+    </fieldset>
+
+    <fieldset>
+        <legend>Escolha seu lanche</legend>
+        <select name="lanches" id="lanches">
+            <option value="">Escolha uma opção</option>
+            <optgroup label="comidas"></optgroup>
+            <option value="acarajé">acarajé</option>
+            <option value="Xcallback">Xcallback</option>
+            <option value="Salada">Salada</option>
+            <option value="Xchuchu">Xchuchu</option>
+            <option value="Pudim">Pudim</option>
+            <optgroup label="bebidas"></optgroup>
+            <option value="Guaraná">Guaraná Jesus</option>
+            <option value="Tamarindo">Suco de Tamarindo</option>
+            <option value="dollynho">Dollynho</option>
+            <option value="Caldo de cana">Caldo de cana</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Método de Pagamento:</legend>
+
+            <label for="Dinheiro">Dinheiro</label>
+            <input type="radio" name="pagamento" id="dinheiro">
+            <label for="credito">Crédito</label>
+            <input type="radio" name="pagamento" id="credito">
+            <label for="débito">Débito</label>
+            <input type="radio" name="pagamento" id="debito">
+            <label for="pix">Pix</label>
+            <input type="radio" name="pagamento" id="Pix" checked>
+
+    </fieldset>
+
+        <fieldset>
+            <legend>Opcionais</legend> 
+
+            <label for="colher">Colher</label>
+            <input type="checkbox" name="colher" id="colher">
+            <label for="garfo">garfo</label>
+            <input type="checkbox" name="garfo" id="garfo">
+            <label for="hashi">Hashi</label>
+            <input type="checkbox" name="Hashi" id="hashi">
+        </fieldset>
+
+        <fieldset>
+            <legend>Agendar para quando?</legend>
+            <input type="datetime-local" name="data" id="data">
+        </fieldset>
+
+            <button type="submit">Pedir</button>
+            <button type="reset">Cancelar</button>
+
+        </form>
+        </main>
+    </body>
+
+</html>
